@@ -1,7 +1,7 @@
 apiVersion: v1
 clusters:
 - cluster:
-    certificate-authority: /home/teralco/.minikube/ca.crt
+    certificate-authority: ca.crt
     extensions:
     - extension:
         last-update: Fri, 18 Nov 2022 08:12:19 CET
